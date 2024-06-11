@@ -36,8 +36,6 @@ library(did)
 library(geobr)
 library(sf)
 
-
-
 #setting working directory cloud
 setwd("D:/work_related/")
 
@@ -56,7 +54,7 @@ pay_methods_usage_bcb_pix = pay_methods_usage_bcb %>%
 
 usage_threshold = c(0.3, 0.4, 0.5, 0.6, 0.7, 0.8)
 
-estabelecimentos_list = list()
+estabelecimentos_list_filter = list()
 
 stats_df = data.frame()
 
